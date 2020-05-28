@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+/* ------ selectors ------- */
+.selectStuff {
+  width: 400px;
+  margin-left: 100px;
+}
+
+/* ------ CSV Download ----- */
+#csv {
+  margin: 10px;
+}
+
+/* ----- Dual List Box ----- */
+#dlb {
+  margin: 10px;
+}
+
+/* ---- Grid Section ------ */
+.gridSectionA {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-column-gap: 10px;
+}
+.gridSectionB {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-column-gap: 10px;
+}
+.gridSectionC {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-column-gap: 10px;
+}
+
+/* ----- Grid Columns ----- */
+.columnA {
+  background-color: cadetblue;
+}
+.columnB {
+  background-color: darkkhaki;
+}
+.columnC {
+  background-color: darksalmon;
+}
+
+/* ----- Grid Divs ----- */
+#a1 {
+  grid-column: 1 / 3;
+}
