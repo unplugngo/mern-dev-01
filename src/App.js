@@ -83,7 +83,7 @@ function App() {
   return (
     <div className="App">
       <header>
-      <h2>Mern Development App</h2>
+      <h2>Mern AWS Development App</h2>
       </header>
         <div className='selectStuff'>
           <SelectR />
@@ -99,7 +99,9 @@ function App() {
           <div className="columnA" id='a1'>
             <SelectR />
           </div>
-          <div className="columnA">2</div>
+          <div className="columnA" id='a2' rows='5' cols='10'>
+            <TextArea />
+          </div>
           <div className="columnA">3</div>
           <div className="columnA">4</div>
           <div className="columnA">5</div>
